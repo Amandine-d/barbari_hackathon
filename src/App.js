@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Home/Home';
-import Products from './Products/Products';
-import Contact from './Contact/Contact';
-import Navbar from './Navbar/Navbar';
+import Home from './components/Home/Home';
+import Products from './components/Products/Products';
+import Contact from './components/Contact/Contact';
+import Header from './components/Header/Header';
 import './App.css';
 
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <Header />
         <div>
           <Routes>
             <Route path='/' element={<Home />} />
