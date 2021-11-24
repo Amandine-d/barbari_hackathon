@@ -1,0 +1,38 @@
+@media screen and (max-width: 400px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+}
+input,
+textarea {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.checkbox{
+  display: flex;
+  justify-content: center;
+}
+form{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  padding: 20vw 20vw;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input{
+  width: 80vh;
+  height: auto;
+}
