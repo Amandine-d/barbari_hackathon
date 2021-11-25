@@ -1,19 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap%27");
+
 .container__navbar {
+  font-family: "Megrim";
   background: black;
   height: 80px;
   display: flex;
   justify-content: space-evenly;
-
 }
 
-.navlink__navbar{
+.navlink__navbar {
   color: white;
   text-decoration: none;
   cursor: pointer;
   display: flex;
   align-items: center;
-
- } 
+}
 
 .active {
   color: green;
@@ -23,9 +24,6 @@
   color: blueviolet;
   transition: all 0.3s linear;
 }
-
-
-
 
 .logo__navbar {
   height: 70px;
