@@ -1,11 +1,25 @@
 .container__music {
   padding: 0;
   box-sizing: border-box;
-  color: black;
+  color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  align-items: center;
-  width: 90wh
+  text-align: center;
+  background-image: url('/src/assets/galaxy.jpeg');
+  background-position: center;
+  height: auto;
+  background-size: 1080px 800px;
+}
+
+.container__card {
+  border: 1px solid black;
+  opacity: 0.8;
+  font-size: 1.1rem;
+  box-shadow: 10px 5px 5px black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 .container__contain {
@@ -21,22 +35,61 @@
 }
 
 .btn__music {
-    display: inline-block;
-    background: hsl(205, 78%, 60%);
-    color: #fff;
-    padding: 0.25rem 0.75rem;
-    border-radius: 0.25rem;
-    border-color: transparent;
-    text-transform: capitalize;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    cursor: pointer;
-    transition: all 0.3s linear;
-  }
+  display: inline-block;
+  background: hsl(205, 78%, 60%);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
 .btn__music:hover {
-    background: hsl(205, 86%, 17%);
-    color: hsl(205, 78%, 60%);
+  background: hsl(205, 86%, 17%);
+  color: hsl(205, 78%, 60%);
   }
+
+
+.video__style {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  height: 50vh;
+}
+
+  /* Music details */
+
+.h1__style__details {
+  height: 3rem;
+  padding: 10px;
+  text-decoration: underline overline hsl(0,100%,51%);;
+}
+
+.container__details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('/src/assets/galaxy.jpeg');
+  background-position: center;
+  height: auto;
+  background-size: 1080px 800px;
+  }
+
+.music__details {
+  display: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  max-width: 60vw;
+  padding: 10px;
+  border: 1px solid black;
+  opacity: 0.7;
+  font-size: 1.1rem;
+  box-shadow: 10px 5px 5px black;
+}
