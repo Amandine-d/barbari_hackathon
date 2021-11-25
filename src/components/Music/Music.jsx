@@ -7,7 +7,7 @@ function Music() {
 
   return (
     <div className="container__music">
-      <p>This is Music</p>
+      <h1>Different styles of music</h1>
       <div className="container__contain">
       {styleInfos.map((music) => {
         return <Style {...music} key={music.id} />;

@@ -2,7 +2,7 @@ const styleInfos = [
   {
     id: 1,
     style: "Classical",
-    description:"Blabla", 
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     video:"https://www.youtube.com/embed/Ci5yx5tJERQ",
     artist: 'wagner',
     titre: 'La walkyrie',
@@ -11,8 +11,7 @@ const styleInfos = [
   {
     id: 2,
     style: "Eighties",
-    description:"Blabla", 
-
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     video:'https://www.youtube.com/embed/dQsjAbZDx-4',
     artist: 'abba',
     titre: 'Fernando',
@@ -21,7 +20,7 @@ const styleInfos = [
   {
     id: 3,
     style: "Electro",
-    description:"Blabla", 
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
     video:'https://www.youtube.com/embed/MV_3Dpw-BRY',
     artist: 'kavinski',
     titre:"nightcall",
@@ -30,7 +29,7 @@ const styleInfos = [
   {
     id: 4,
     style: "Trip",
-    description:"Blabla", 
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
     video:'https://www.youtube.com/embed/kjPTQLgGpq8',
     artist: 'portishead',
 
@@ -38,7 +37,7 @@ const styleInfos = [
   {
     id: 5,
     style: "Techno",
-    description:"Blabla", 
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
     video:'"https://www.youtube.com/embed/kjPTQLgGpq8"',
     artist:"Enrico Sangiuliano",
     titre:"Symbiosis",
