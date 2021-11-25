@@ -10,7 +10,7 @@ import Eighties from './components/Music/Styles/Eighties';
 import Techno from './components/Music/Styles/Techno';
 import Electro from './components/Music/Styles/Electro';
 import './App.css';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
             <Route path='/music/triphop' element={<Trip />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
+          <Footer/>
         </div>
 
       </header>

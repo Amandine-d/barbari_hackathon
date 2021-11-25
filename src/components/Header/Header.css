@@ -6,27 +6,3 @@
 
 }
 
-.navlink__navbar{
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-
- } 
-
-.active {
-  color: green;
-}
-
-.navlink__navbar:hover {
-  color: blueviolet;
-  transition: all 0.3s linear;
-}
-
-
-
-
-.logo__navbar {
-  height: 70px;
-}
