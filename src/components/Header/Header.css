@@ -1,32 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container__navbar {
-  background: black;
-  height: 80px;
   display: flex;
-  justify-content: space-evenly;
-
+  background-image: url('/src/assets/soleil.jpg');
+  height: 110px;
+  background-size: 380px 115px;
+  background-repeat: no-repeat ;
 }
 
-.navlink__navbar{
+.logo {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -25px;
+  height: 100px;
+}
+
+.line {
+  margin-top: 90px;
+  width: 90%; 
+  height: 6px;
+  background: linear-gradient(269.99deg, rgba(155, 58, 232, 0.54) 0%, #3257DC 100%, #435DB6 100%), #151B31;
+}
+
+h1 {
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 25px;
+  font-family: 'Megrim', cursive;
   color: white;
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-
- } 
-
-.active {
-  color: green;
+  z-index: 1000;
 }
 
-.navlink__navbar:hover {
-  color: blueviolet;
-  transition: all 0.3s linear;
-}
+@media screen and (min-width: 1380px) {
 
-
-
-
-.logo__navbar {
-  height: 70px;
+  .container__navbar {
+    height: 300px;
+    background-size: 1920px 600px;
+    background-position: center;
+  }
+  
+  .logo {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -65px;
+    height: 250px;
+  }
+  
+  .line {
+    margin-top: 250px;
+    width: 90%; 
+    height: 8px;
+background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+  }
+  
+  h1 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 80px;
+    font-size: 80px;
+    font-family: 'Megrim', cursive;
+    color: white;
+    z-index: 1000;
+  }
 }
