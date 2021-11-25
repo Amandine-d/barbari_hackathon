@@ -1,17 +1,25 @@
 import axios from "axios";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 // import Similar from './Similar';
 import styleInfos from "./stylesInfos";
-import './Music.css';
+import "./Music.css";
 
 function MusicDetails() {
   const params = useParams();
   const getInfos = () => {
     axios.get(`https://tastedive.com/api/similar?q=${params.id}`);
   };
+  const [quote, setQuote] = useState([]);
+  useEffect(() => {
+    axios
+      .get(`http://quotes.stormconsultancy.co.uk/random.json`)
+      .then((response) => {
+        setQuote(response.data);
+      });
+  }, []);
 
-  console.log(getInfos);
+  console.log(quote);
   return (
     <div className="container__details">
       <div className="music__details">
@@ -23,12 +31,17 @@ function MusicDetails() {
               <h2>{style.artist}</h2>
               <h2>{style.description}</h2>
               <img src={style.image} alt={style.name} />
-              <h2>
-                You might like:
-                {/* <Similar nameArtist={style.artist} /> */}
-              </h2>
             </div>
           ) : null
+        )}
+        <h2>You might like:</h2>
+        {quote ? (
+          <div>
+            <h4>{quote.quote}</h4>
+            <h3>{quote.author}</h3>
+          </div>
+        ) : (
+          "No chance today"
         )}
       </div>
     </div>
