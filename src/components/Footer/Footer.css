@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+.footer {
+    background-image: url('/src/assets/montagne.png');
+    padding: 1rem 0;
+    text-align: center;
+    height: 110px ;
+    background-size: 400px 115px;
+    color: white;
+}
+
+.h3__footer {
+  font-size: 18px;
+  margin-top: 78px;
+  font-weight: bold;
+  font-family: 'Megrim', cursive;
+}
+
+  /* @media screen and (min-width: 992px) {
+    .footer-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer .links {
+      padding-bottom: 0;
+    }
+  } */

@@ -15,6 +15,7 @@
   background-repeat: no-repeat ;
   box-shadow: 5px 5px 5px rgba(223, 166, 43, 0.8);
   position: relative;
+
 }
 
 .logo {
@@ -33,6 +34,7 @@
   box-shadow: 5px 0px 5px rgba(135, 49, 206, 0.8);
   background: linear-gradient(269.99deg, rgba(155, 58, 232, 0.54) 0%, #3257DC 100%, #435DB6 100%), #151B31;
 }
+
 
 .h1_header {
   position: absolute; 
@@ -66,11 +68,15 @@
     height: 8px;
     background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
-  
-  .h1_header {
+
+  .h1__header {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 80px;
     font-size: 80px;
     font-family: 'Megrim', cursive;
     color: white;
     z-index: 1000;
   }
+
 }
