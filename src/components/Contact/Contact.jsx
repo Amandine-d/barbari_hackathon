@@ -70,11 +70,11 @@ const Contact = () => {
               value={newsletter}
               onChange={handleNewsletterChange}
             />
-            S'inscricre a la newsletter
+            S'inscrire a la newsletter
           </label>
         </div>
       </div>
-      <button className="click" type="button">Submit</button>
+      <button className='click' onClick={() => alert('merci pour votre message')} type="button">Submit</button>
     </form>
   );
 };
