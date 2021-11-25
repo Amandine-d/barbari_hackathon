@@ -39,7 +39,7 @@ textarea {
   margin: 20px auto;
 }
 
-button {
+.click {
   font-size: 1em;
   background-color: blueviolet;
   color: rgb(255, 255, 80);

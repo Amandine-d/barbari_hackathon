@@ -74,7 +74,7 @@ const Contact = () => {
           </label>
         </div>
       </div>
-      <button type="button">Submit</button>
+      <button className="click" type="button">Submit</button>
     </form>
   );
 };
