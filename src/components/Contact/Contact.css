@@ -1,38 +1,79 @@
+h2 {
+  text-align: center;
+}
+.container {
+  padding: 10px;
+  margin: 20px;
+}
+
+.demiColonneR {
+  width: 45%;
+  float: right;
+}
+
+.demiColonneL {
+  width: 45%;
+  float: left;
+}
+
+label,
+input,
+textarea {
+  color: hsl(56, 33%, 40%);
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  font-size: 1.6em;
+  
+}
+
+.email {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  display: flex;
+  text-align: center;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 1em;
+  background-color: blueviolet;
+  color: rgb(255, 255, 80);
+  border-radius: 5rem;
+  padding: 0.5em;
+  margin: 20px auto;
+  cursor: pointer;
+  display: flex;
+  box-shadow: 0 0.5em;
+}
+
+button:hover {
+  box-shadow: 0.1em 0.3em #261711;
+  transform: translateY(3px);
+}
+
+button:active {
+  background-color: #90755d;
+  color: #261711;
+  box-shadow: 0 0.1em;
+  transform: translateY(7px);
+}
+form {
+  width: 50%;
+}
+#apply_button {
+  background-color: white;
+}
 @media screen and (max-width: 400px) {
   form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 80%;
   }
 }
 input,
 textarea {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-.checkbox{
-  display: flex;
-  justify-content: center;
-}
-form{
-  background-color: aqua;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 80%;
-  padding: 20vw 20vw;
-}
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-input{
-  width: 80vh;
   height: auto;
 }
