@@ -28,7 +28,7 @@
   background: linear-gradient(269.99deg, rgba(155, 58, 232, 0.54) 0%, #3257DC 100%, #435DB6 100%), #151B31;
 }
 
-h1 {
+.h1__header {
   position: absolute;
   margin-left: 125px;
   margin-top: 25px;
@@ -59,7 +59,7 @@ h1 {
 background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
   
-  h1 {
+  .h1__header {
     position: absolute;
     margin-left: 580px;
     margin-top: 80px;
