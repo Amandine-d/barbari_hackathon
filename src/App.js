@@ -7,12 +7,12 @@ import Header from './components/Header/Header';
 import './App.css';
 import MusicDetails from './components/Music/Styles/MusicDetails';
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Header />
+        <BurgerMenu />
         <div>
           <Routes>
             <Route path='/' element={<Home />} />
@@ -21,7 +21,6 @@ function App() {
             <Route path='/music/:id' element={<MusicDetails />} />
           </Routes>
         </div>
-
       </header>
     </div>
   );
