@@ -4,7 +4,7 @@ import styleInfos from "./stylesInfos";
 
 function Music() {
   const [style, setStyle] = useState(false);
-  const handleStyle = () => setStyle(!style);
+  const handleStyle = () => {setStyle(!style)};
 
   return (
     <div>

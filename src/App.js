@@ -1,12 +1,14 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
+import BurgerMenu from "./components/BurgerMenu/BurgerMenu"
 import Music from './components/Music/Music';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
-import BurgerMenu from './components/BurgerMenu/BurgerMenu';
 import './App.css';
+import Footer from './components/Footer/Footer';
 import MusicDetails from './components/Music/MusicDetails';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/music/:id' element={<MusicDetails />} />
           </Routes>
+          <Footer/>
         </div>
       </header>
     </div>
