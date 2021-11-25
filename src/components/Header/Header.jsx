@@ -8,7 +8,7 @@ function Header() {
       <div className="container__navbar">
         <img src={logo} alt="logo" className="logo" />
         <div className="line" />
-        <h1>VALKYRY</h1>
+        <h1 className='h1__header'>VALKYRY</h1>
       </div>
     </>
   );
