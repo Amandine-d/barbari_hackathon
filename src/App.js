@@ -4,8 +4,9 @@ import Home from './components/Home/Home';
 import Music from './components/Music/Music';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
+import BurgerMenu from './components/BurgerMenu/BurgerMenu';
 import './App.css';
-import MusicDetails from './components/Music/Styles/MusicDetails';
+import MusicDetails from './components/Music/MusicDetails';
 
 function App() {
   return (
