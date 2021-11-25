@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 import Style from "./Style";
 import styleInfos from "./stylesInfos";
+import './Music.css';
 
 function Music() {
-  const [style, setStyle] = useState(false);
-  const handleStyle = () => {setStyle(!style)};
 
   return (
-    <div>
+    <div className="container__music">
       <p>This is Music</p>
-      <button onClick={handleStyle} type="button">
-        style
-      </button>
+      <div className="container__contain">
       {styleInfos.map((music) => {
         return <Style {...music} key={music.id} />;
       })}
+      </div>
     </div>
   );
 }

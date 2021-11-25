@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router";
+import './Music.css';
 
-function Style({ id, style, name }) {
+function Style({ id, style, name, video }) {
   let navigate = useNavigate();
   const handleStyle = () => {
     console.log(name);
@@ -9,9 +10,11 @@ function Style({ id, style, name }) {
   };
   return (
     <div className="container">
-      <h1>{style}</h1>
-      <p>{id}</p>
-      <button onClick={handleStyle}>More</button>
+      <div className='container__style'>
+      <h2>{style}</h2>
+      <iframe width="560" height="315" src={video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <button onClick={handleStyle} className='btn__music'>More</button>
     </div>
   );
 }
