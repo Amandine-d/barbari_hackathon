@@ -7,7 +7,8 @@ import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import './App.css';
 import Footer from './components/Footer/Footer';
-import MusicDetails from './components/Music/Styles/MusicDetails';
+import MusicDetails from './components/Music/MusicDetails';
+
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/music' element={<Music />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/music/*' element={<MusicDetails />} />
+            <Route path='/music/:id' element={<MusicDetails />} />
           </Routes>
           <Footer/>
         </div>
