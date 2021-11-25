@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
-import "./Navbar.css";
+import './Header.css';
 
 function Header() {
   return (
@@ -13,10 +13,15 @@ function Header() {
         <NavLink to="/" className="navlink__navbar">
           Home
         </NavLink>
-        <NavLink to="/products" activeStyle className="navlink__navbar">
-          Products
+        <NavLink to="/music" className="navlink__navbar">
+          Music
+          <NavLink to='/music/classical' className="navlink__navbar" />
+          <NavLink to='/eighties' className="navlink__navbar" />
+          <NavLink to='/electro' className="navlink__navbar" />
+          <NavLink to='/techno' className="navlink__navbar" />
+          <NavLink to='/triphop' className="navlink__navbar" />
         </NavLink>
-        <NavLink to="/contact" activeStyle className="navlink__navbar">
+        <NavLink to="/contact" className="navlink__navbar">
           Contact Us
         </NavLink>
       </div>
