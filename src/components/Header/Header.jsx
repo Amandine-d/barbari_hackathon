@@ -15,11 +15,11 @@ function Header() {
         </NavLink>
         <NavLink to="/music" className="navlink__navbar">
           Music
-          <NavLink to='/music/classical' className="navlink__navbar" />
+          {/* <NavLink to='/music/classical' className="navlink__navbar" />
           <NavLink to='/eighties' className="navlink__navbar" />
           <NavLink to='/electro' className="navlink__navbar" />
           <NavLink to='/techno' className="navlink__navbar" />
-          <NavLink to='/triphop' className="navlink__navbar" />
+          <NavLink to='/triphop' className="navlink__navbar" /> */}
         </NavLink>
         <NavLink to="/contact" className="navlink__navbar">
           Contact Us
