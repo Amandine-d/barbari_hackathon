@@ -23,7 +23,7 @@ const styleInfos = [
     style: "Electro",
     description:"Blabla", 
     video:'https://www.youtube.com/embed/MV_3Dpw-BRY',
-    artist: 'kavinski'
+    artist: 'kavinski',
     titre:"nightcall",
     image:"https://upload.wikimedia.org/wikipedia/commons/0/02/Kavinsky.jpg"
   },
