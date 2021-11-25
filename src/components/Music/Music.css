@@ -1,0 +1,42 @@
+.container__music {
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  width: 90wh
+}
+
+.container__contain {
+  display: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__style {
+  display: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn__music {
+    display: inline-block;
+    background: hsl(205, 78%, 60%);
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+.btn__music:hover {
+    background: hsl(205, 86%, 17%);
+    color: hsl(205, 78%, 60%);
+  }
