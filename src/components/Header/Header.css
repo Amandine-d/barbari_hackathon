@@ -7,61 +7,67 @@
 
 .container__navbar {
   display: flex;
+  /* flex-direction: row; */
   background-image: url('/src/assets/soleil.jpg');
-  height: 110px;
-  background-size: 380px 115px;
+  background-position: 50% 50%;
+  height: 20vh;
+  background-size: 150% 200%;
   background-repeat: no-repeat ;
+  box-shadow: 5px 5px 5px rgba(223, 166, 43, 0.8);
+  position: relative;
 }
 
 .logo {
   position: absolute;
-  margin-top: 25px;
+  margin-top: 8vh;
   margin-left: -25px;
   height: 100px;
 }
 
 .line {
-  margin-top: 90px;
-  width: 90%; 
+  border-radius: 10px;
+  margin-top: 17vh;
+  margin-left: -5px;
+  width: 60%; 
   height: 6px;
+  box-shadow: 5px 0px 5px rgba(135, 49, 206, 0.8);
   background: linear-gradient(269.99deg, rgba(155, 58, 232, 0.54) 0%, #3257DC 100%, #435DB6 100%), #151B31;
 }
 
-h1 {
-  position: absolute;
-  margin-left: 125px;
-  margin-top: 25px;
+.h1_header {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
   font-family: 'Megrim', cursive;
   color: white;
   z-index: 1000;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 1380px) {
 
   .container__navbar {
-    height: 300px;
-    background-size: 1920px 600px;
+    height: 25vh;
+   background-size: 100% 200%;
+
     background-position: center;
   }
   
   .logo {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 3vh;
     margin-left: -65px;
     height: 250px;
   }
   
   .line {
-    margin-top: 250px;
+    margin-top: 20vh;
     width: 90%; 
     height: 8px;
-background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+    background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
   
-  h1 {
-    position: absolute;
-    margin-left: 580px;
-    margin-top: 80px;
+  .h1_header {
     font-size: 80px;
     font-family: 'Megrim', cursive;
     color: white;

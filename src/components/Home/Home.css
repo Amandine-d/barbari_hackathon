@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+* {
+  font-family: 'Megrim', sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('/src/assets/galaxy.jpeg');
+  background-position: center;
+  height: 800px;
+  background-size: 1080px 800px;
+}
+
+.title_home {
+  position: relative;
+  margin: 0;
+}
+
+.cercles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cercle {
+  margin: 45px 0px ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+  background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+}
+
+.line_2 {
+  height: 10px;
+  background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+}
+
+@media screen and (min-width: 1380px) {
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('/src/assets/galaxy.jpeg');
+    background-position: center;
+    height: 800px;
+    background-size: 1920px 800px;
+  }
+  
+  .title_home {
+    position: relative;
+    margin: 0;
+  }
+  
+  .cercles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .cercle {
+    margin: 45px 0px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+    background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  }
+  
+  .line_2 {
+    height: 10px;
+    background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+  }
+  
+}
