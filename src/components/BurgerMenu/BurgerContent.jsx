@@ -8,7 +8,7 @@ function BurgerContent({ handleClick }) {
       <ul className="nav">
         <li>
           <NavLink
-            to="/home"
+            to="/"
             className="navLink-burgerMenu"
             onClick={handleClick}
           >
