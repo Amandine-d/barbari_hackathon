@@ -2,10 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router";
 
 function Style ({ id, style, name }) {
-  const navigate = useNavigate();
+  let navigate = useNavigate();
   const handleStyle = () => {
     console.log(name);
-    navigate(`/music/${style}`);
+    navigate(`/music/${id}`);
   }
   return(
 
