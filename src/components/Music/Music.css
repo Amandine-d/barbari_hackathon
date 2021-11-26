@@ -41,13 +41,14 @@
 
 .btn__music {
   display: inline-block;
-  background: hsl(205, 78%, 60%);
-  color: #fff;
+  background: hsl(323,100%,50%);
+  color: black;
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   border-color: transparent;
   text-transform: capitalize;
   font-size: 1rem;
+  font-weight: bolder;
   letter-spacing: 0.1rem;
   margin-top: 2rem;
   margin-left: 0.5rem;
@@ -83,12 +84,13 @@
   border-color: hsl(323,100%,50%);
   font-family: 'Megrim', cursive;
   color: white;
-  z-index: 1000;
+  right: 25vw;
+  left: 30vw;
   /* transform: translate(-50%, -50%); */
   text-shadow: 5px 5px 5px yellow;
 }
 .container__details {
-  color: white;
+  color: rgb(243, 240, 240);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +110,7 @@
   padding: 10px;
   border: 1px solid hsl(323,100%,50%);
   opacity: 0.7;
-  font-size: 1.1rem;
+  font-size: 1.5em;
   box-shadow: 10px 5px hsl(323,100%,50%);
   height: auto;
   border-radius: 15px;
@@ -119,10 +121,29 @@
   height: auto;
 }
 
+.h2__details {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 2em;
+}
+
 .img__musicdetails {
   max-width: 70vw;
   height: auto;
   object-fit: contain;
   border-radius: 10000px;
   margin: 2em;
+  padding-top: 1rem;
+}
+
+.name__artist {
+  color: hsl(323,100%,50%);
+  text-shadow: 2px 4px black;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding-bottom: 1em;
+}
+
+.quote__music {
+  font-size: 1.5em;
 }
