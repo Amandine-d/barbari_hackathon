@@ -41,13 +41,14 @@
 
 .btn__music {
   display: inline-block;
-  background: hsl(205, 78%, 60%);
-  color: #fff;
+  background: hsl(323,100%,50%);
+  color: black;
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   border-color: transparent;
   text-transform: capitalize;
   font-size: 1rem;
+  font-weight: bolder;
   letter-spacing: 0.1rem;
   margin-top: 2rem;
   margin-left: 0.5rem;
@@ -83,7 +84,8 @@
   border-color: hsl(323,100%,50%);
   font-family: 'Megrim', cursive;
   color: white;
-  z-index: 1000;
+  right: 25vw;
+  left: 30vw;
   /* transform: translate(-50%, -50%); */
   text-shadow: 5px 5px 5px yellow;
 }
@@ -125,4 +127,13 @@
   object-fit: contain;
   border-radius: 10000px;
   margin: 2em;
+  padding-top: 1rem;
+}
+
+.name__artist {
+  color: hsl(323,100%,50%);
+  text-shadow: 2px 4px black;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding-bottom: 1em;
 }
