@@ -38,7 +38,7 @@ function MusicDetails() {
             </div>
           ) : null
         )}
-        <h2>You might like:</h2>
+        <h2 className="h2__details">You might like:</h2>
 
         <Quote extract={extract} setExtract={setExtract}/>
       </div>

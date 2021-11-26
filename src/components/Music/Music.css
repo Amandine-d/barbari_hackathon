@@ -90,7 +90,7 @@
   text-shadow: 5px 5px 5px yellow;
 }
 .container__details {
-  color: white;
+  color: rgb(243, 240, 240);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +110,7 @@
   padding: 10px;
   border: 1px solid hsl(323,100%,50%);
   opacity: 0.7;
-  font-size: 1.1rem;
+  font-size: 1.5em;
   box-shadow: 10px 5px hsl(323,100%,50%);
   height: auto;
   border-radius: 15px;
@@ -119,6 +119,12 @@
 .details__style__card {
   max-width: 80vw;
   height: auto;
+}
+
+.h2__details {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 2em;
 }
 
 .img__musicdetails {
@@ -136,4 +142,8 @@
   text-decoration: underline;
   font-size: 4rem;
   padding-bottom: 1em;
+}
+
+.quote__music {
+  font-size: 1.5em;
 }
