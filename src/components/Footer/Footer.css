@@ -6,13 +6,13 @@
     height: 20vh ;
     background-size: 120% 100%;
     color: white;
-    margin-top: -31.5vh;
     filter: drop-shadow(15px -20px 25px #9B3AE8);
+    bottom: 0;
 }
 
 .h3__footer {
   font-size: 18px;
-  margin-top: 80px;
+  padding-top: 110px;
   font-weight: bold;
   font-family: 'Megrim', cursive;
 }
@@ -31,10 +31,16 @@
       animation: move1 1s infinite;
      }
 
+     .h3__footer {
+      font-size: 60px;
+      padding-top: 550px;
+      font-weight: bold;
+      font-family: 'Megrim', cursive;
+    }
+
    
   }
 
-  /* 165088-vaporwave-retro-style_retro-retrofuturisme-synthwave-x750_adobespark_2_-removebg-preview 2 */
 
 
 

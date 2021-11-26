@@ -12,19 +12,17 @@ import MusicDetails from "./components/Music/MusicDetails";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-        <BurgerMenu />
-        <div>
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/music" element={<Music />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/music/:id" element={<MusicDetails />} />
-          </Routes>
-        </div>
-        <Footer />
-      </header>
+      <Header />
+      <BurgerMenu />
+      <div className="container_page">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/music/:id" element={<MusicDetails />} />
+        </Routes>
+      </div>
+      <Footer />{" "}
     </div>
   );
 }
