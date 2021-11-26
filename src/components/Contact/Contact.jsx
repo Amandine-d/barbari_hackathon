@@ -16,7 +16,7 @@ const Contact = () => {
 
   return (
     <form>
-      <h2>Formulaire</h2>
+      <h2 className="h2__contact">Formulaire</h2>
       <div className="container">
         <div className="colonnef">
           <label htmlFor="firstName">
