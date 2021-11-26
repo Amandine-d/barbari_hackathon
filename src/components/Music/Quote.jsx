@@ -17,7 +17,7 @@ function Quote({extract, setExtract}) {
       <h4>{extract.quote}</h4>
       <h3>{extract.author}</h3>
     </div>
-    <button type="button" onClick={getQuote}>Click</button>
+    <button type="button" onClick={getQuote} className="btn__music">Another ?</button>
     </>
   ) : (
     "No chance today"

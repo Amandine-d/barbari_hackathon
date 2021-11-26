@@ -23,7 +23,7 @@ function Style({ id, style, name, video }) {
         ></iframe>
       </div>
       <button onClick={handleStyle} className="btn__music">
-        More
+        More Infos
       </button>
     </div>
   );

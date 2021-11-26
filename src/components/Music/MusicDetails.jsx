@@ -32,13 +32,13 @@ function MusicDetails() {
           style.id == params.id ? (
             <div className="details__style__card">
               <h1 className="h1__style__details">{style.style}</h1>
-              <h3>{style.description}</h3>
+              <h3 className="h3__style">{style.description}</h3>
               <img src={style.image} alt={style.name} className="img__musicdetails" />
-              <h2>Artist: { } {style.artist}</h2>
+              <h2 className="name__artist">{style.artist}</h2>
             </div>
           ) : null
         )}
-        <h2>You might like:</h2>
+        <h2 className="h2__details">You might like:</h2>
 
         <Quote extract={extract} setExtract={setExtract}/>
       </div>
