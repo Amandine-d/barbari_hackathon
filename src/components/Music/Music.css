@@ -20,18 +20,21 @@
   padding: 10px;
   margin: 20px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .container__contain {
   display: column;
   align-items: center;
   justify-content: center;
+  max-width: 90%;
 }
 
 .container__style {
   display: column;
   align-items: center;
   justify-content: center;
+  max-width: 1000%;
 }
 
 .btn__music {
@@ -59,6 +62,7 @@
 .video__style {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   height: 50vh;
+  width: 50vw;
 }
 
   /* Music details */
@@ -82,14 +86,27 @@
   }
 
 .music__details {
-  display: column;
+  /* display: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   margin: 20px;
-  max-width: 60vw;
+  max-width: 80vw;
   padding: 10px;
   border: 1px solid black;
   opacity: 0.7;
   font-size: 1.1rem;
   box-shadow: 10px 5px 5px black;
+}
+
+.details__style__card {
+  max-width: 80vw;
+  height: auto;
+}
+
+.img__musicdetails {
+  max-width: 70vw;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10000px;
+  margin: 2em;
 }

@@ -12,10 +12,8 @@ function Style({ id, style, name, video }) {
   return (
     <div className="container__card">
       <div className="container__style">
-        <h2>{style}</h2>
+        <h2 className="h1__style__details">{style}</h2>
         <iframe
-          width="560"
-          height="315"
           src={video}
           title="YouTube video player"
           frameborder="0"
