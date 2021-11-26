@@ -74,7 +74,7 @@ const Contact = () => {
           </label>
         </div>
       </div>
-      <button className='click' onClick={() => alert('merci pour votre message')} type="button">Submit</button>
+      <button className='click' onClick={() => alert('Merci pour votre message')} type="button">Submit</button>
     </form>
   );
 };
