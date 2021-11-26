@@ -7,8 +7,9 @@
   flex-flow: column;
   background-color: #2a2e33;
   background: linear-gradient(180deg, #f19a34 0%, #9b3ae8 100%);
-  color: red;
-  border: solid;
+  color: rgb(236, 154, 132);
+  box-shadow: 0px 0px 5px 2px rgb(236, 154, 132);
+  /* border: solid; */
   border-radius: 15px;
   position: absolute;
   width: fit-content;
