@@ -18,14 +18,28 @@
   display: column;
   justify-content: center;
   border: 1px solid hsl(323,100%,50%);
-  opacity: 0.8;
+  opacity: 0.9;
   font-size: 1.1rem;
   box-shadow: 10px 5px 5px hsl(323,100%,50%);
   padding: 1em;
   margin: 20px;
   border-radius: 10px;
   width: 100%;
+  background-color: rgba(37, 10, 59, 0.8);
 }
+
+iframe {
+  animation: defilement-rtl6 3.5s linear;
+}
+
+@keyframes defilement-rtl6 { 
+  0% {
+    transform: translateX(-3550px);    
+  }
+  100% {
+    transform: translateX(0px);  
+  }
+} 
 
 .container__contain {
   display: column;
