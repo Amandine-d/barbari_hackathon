@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 // import Similar from './Similar';
 import styleInfos from "./stylesInfos";
+import Quote from './Quote';
 import "./Music.css";
 
 function MusicDetails() {
@@ -14,16 +15,13 @@ function MusicDetails() {
   const getInfos = () => {
     axios.get(`https://tastedive.com/api/similar?q=${params.id}`);
   };
-  const [quote, setQuote] = useState([]);
-  useEffect(() => {
-    axios
-      .get(`http://quotes.stormconsultancy.co.uk/random.json`)
-      .then((response) => {
-        setQuote(response.data);
-      });
-  }, []);
 
-  console.log(quote);
+  const sampleQuote= {
+    author: "Mitch Ratcliffe",
+    quote: "A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila.",
+  }
+  const [extract, setExtract] = useState(sampleQuote);
+
   return (
     <div className="container__details">
       <button onClick={handleBack} className="btn__music">
@@ -41,14 +39,8 @@ function MusicDetails() {
           ) : null
         )}
         <h2>You might like:</h2>
-        {quote ? (
-          <div className="quote__music">
-            <h4>{quote.quote}</h4>
-            <h3>{quote.author}</h3>
-          </div>
-        ) : (
-          "No chance today"
-        )}
+
+        <Quote extract={extract} setExtract={setExtract}/>
       </div>
     </div>
   );
