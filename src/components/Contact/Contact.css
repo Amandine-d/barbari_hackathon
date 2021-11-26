@@ -51,7 +51,6 @@ textarea {
   box-shadow: 0 0.5em;
 }
 
-
 .click:hover {
   box-shadow: 0.1em 0.3em #261711;
   transform: translateY(3px);
