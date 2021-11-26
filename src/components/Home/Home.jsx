@@ -14,7 +14,7 @@ function Home() {
         className="container_cercle"
         style={{ display: "flex", flexDirection: "row-reverse" }}
       >
-        <div className="cercle"></div>
+        <div className="cercle_2"></div>
       </div>
     </div>
   );

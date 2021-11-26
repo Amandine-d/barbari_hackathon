@@ -7,8 +7,6 @@
 .home {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
   text-align: center;
   background-image: url('/src/assets/galaxy.jpeg');
   background-position: center;
@@ -22,9 +20,8 @@
 }
 
 .cercle {
-  display: flex;
-  /* justify-content: flex-start; */
   margin: 65px 0px ;
+  margin-left: 100px;
   width: 50vw;
   height: 30vh;
   border-radius: 50%;
@@ -32,10 +29,20 @@
   background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
 }
 
+.cercle_2 {
+  margin: 65px 0px ;
+  margin-right: 80px;
+  width: 50vw;
+  height: 30vh;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+  background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+}
 
 .line_2 {
   height: 10px;
   width: 70vw;
+  margin-left: 55px;
   border-radius: 10px;
   box-shadow: 5px 5px 55px 15px rgba(135, 49, 206, 0.8);
   background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
@@ -44,7 +51,6 @@
 @media screen and (min-width: 1380px) {
   
   .home {
-    /* position: static; */
     background-image: url('/src/assets/galaxy.jpeg');
     background-position: center;
     height: 120vh;
@@ -60,8 +66,8 @@
 
   .cercles {
     display: flex;
-    
-  }
+ }
+
   .container_cercle {
     display: flex;
     justify-items: flex-end;
@@ -69,15 +75,23 @@
   }
 
   .cercle {
-    margin: 100px 0px ;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+    box-shadow: 5px 5px 45px rgba(135, 49, 206, 0.8);
+    background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  }
+
+  .cercle_2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 45px rgba(135, 49, 206, 0.8);
     background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
   }
 
   .line_2 {
+    margin-left: 250px;
     height: 10px;
     background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
