@@ -15,8 +15,9 @@ const Contact = () => {
   const handleNewsletterChange = (e) => setNewletter(e.target.value);
 
   return (
+    <div className="container__form">
     <form>
-      <h2 className="h2__contact">Formulaire</h2>
+      <h2 className="h2__contact">FORM</h2>
       <div className="container">
         <div className="colonnef">
           <label htmlFor="firstName">
@@ -70,12 +71,17 @@ const Contact = () => {
               value={newsletter}
               onChange={handleNewsletterChange}
             />
-            S'inscrire a la newsletter
+            <div className="subscribe">
+            Subscribe
+            </div>
           </label>
         </div>
       </div>
-      <button className='click' onClick={() => alert('Merci pour votre message')} type="button">Submit</button>
+      <div className="btn__form">
+      <button className="btn__music" onClick={() => alert('Merci pour votre message')} type="button">Submit</button>
+      </div>
     </form>
+    </div>
   );
 };
 export default Contact;
