@@ -12,7 +12,7 @@
 
 p {
   font-size: 0.5em;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .list_music {
@@ -26,7 +26,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 5px;
+  padding: 20px;
   }
 
   .oui_2 {
@@ -34,18 +34,18 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 35px;
-    }
+    padding: 30px;
+  }
 
-.home {
+/* .home {
   display: flex;
   flex-direction: column;
   text-align: center;
   background-image: url('/src/assets/galaxy.jpeg');
   background-position: center;
-  /* background-size: 1080px 800px; */
+  background-size: 1080px 800px;
   background-repeat: no-repeat;
-}
+} */
 
 .title_home {
   font-size: 2em;
@@ -55,10 +55,8 @@ p {
 
 }
 
-
-
 .cercle {
-  margin: 65px 0px ;
+  margin: 50px 0px ;
   margin-left: 100px;
   width: 50vw;
   height: 30vh;
@@ -140,29 +138,23 @@ p {
   .list_music {
     font-size: 1.2em;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 15px;
   }
   
-  .home {
+  /* .home {
     background-image: url('/src/assets/galaxy.jpeg');
     background-position: center;
     height: 150vh;
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
     z-index: 0;
-  }
+  } */
 
   .oui {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     padding: 80px;
     }
 
     .oui_2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       flex-wrap: wrap;
       padding: 110px;
       }
