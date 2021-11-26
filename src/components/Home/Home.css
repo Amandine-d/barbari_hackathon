@@ -10,7 +10,9 @@
   text-align: center;
   background-image: url('/src/assets/galaxy.jpeg');
   background-position: center;
-  background-size: 1080px 800px;
+  /* background-size: 1080px 800px; */
+  background-repeat: no-repeat;
+
 }
 
 .title_home {
@@ -53,8 +55,8 @@
   .home {
     background-image: url('/src/assets/galaxy.jpeg');
     background-position: center;
-    height: 120vh;
-    background-size: 100% 100%;
+    height: 150vh;
+    /* background-size: 100% 100%; */
     z-index: 0;
   }
   

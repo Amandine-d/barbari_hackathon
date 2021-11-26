@@ -8,6 +8,7 @@
     color: white;
     filter: drop-shadow(15px -20px 25px #9B3AE8);
     bottom: 0;
+    background-repeat: no-repeat;
 }
 
 .h3__footer {
@@ -26,13 +27,14 @@
       height: 85vh;
       background-size: 120% 100%;
       color: white;
-      margin-top: -50vh;
+      margin-top: 25vh;
       box-sizing: content-box;
       filter: drop-shadow(15px -20px 25px #9B3AE8);
       animation: move1 1s infinite;
      }
 
      .h3__footer {
+       height: 8vh;
       font-size: 50px;
       padding-top: 650px;
       font-weight: bold;
