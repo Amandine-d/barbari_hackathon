@@ -16,7 +16,7 @@ function App() {
       <BurgerMenu />
       <div className="container_page">
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/music" element={<Music />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/music/:id" element={<MusicDetails />} />
