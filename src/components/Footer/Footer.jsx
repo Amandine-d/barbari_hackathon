@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <div className="footer">
-      <h3 className='h3__footer'>Tous droits réservés Valkyry 2021</h3>
+      {/* <h3 className='h3__footer'>Tous droits réservés Valkyry 2021</h3> */}
     </div>
   </>
   );

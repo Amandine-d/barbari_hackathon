@@ -2,27 +2,40 @@
 
 .footer {
     background-image: url('/src/assets/montagne.png');
-    padding: 1rem 0;
     text-align: center;
-    height: 110px ;
-    background-size: 400px 115px;
+    height: 20vh ;
+    background-size: 120% 100%;
     color: white;
+    margin-top: -31.5vh;
+    filter: drop-shadow(15px -20px 25px #9B3AE8);
 }
 
 .h3__footer {
   font-size: 18px;
-  margin-top: 78px;
+  margin-top: 80px;
   font-weight: bold;
   font-family: 'Megrim', cursive;
 }
 
-  /* @media screen and (min-width: 992px) {
-    .footer-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .footer .links {
-      padding-bottom: 0;
-    }
-  } */
+  @media screen and (min-width: 1380px) {
+    .footer {
+      background-image: url('/src/assets/montagne.png');
+      text-align: center;
+      position: static;
+      height: 50vh;
+      background-size: 110% 110%;
+      color: white;
+      margin-top: -50vh;
+      box-sizing: content-box;
+      filter: drop-shadow(15px -20px 25px #9B3AE8);
+      animation: move1 1s infinite;
+     }
+
+   
+  }
+
+  /* 165088-vaporwave-retro-style_retro-retrofuturisme-synthwave-x750_adobespark_2_-removebg-preview 2 */
+
+
+
+
