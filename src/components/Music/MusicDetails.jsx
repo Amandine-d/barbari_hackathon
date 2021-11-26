@@ -32,17 +32,17 @@ function MusicDetails() {
       <div className="music__details">
         {styleInfos.map((style) =>
           style.id == params.id ? (
-            <div>
+            <div className="details__style__card">
               <h1 className="h1__style__details">{style.style}</h1>
-              <h2>Artist: { } {style.artist}</h2>
               <h3>{style.description}</h3>
-              <img src={style.image} alt={style.name} />
+              <img src={style.image} alt={style.name} className="img__musicdetails" />
+              <h2>Artist: { } {style.artist}</h2>
             </div>
           ) : null
         )}
         <h2>You might like:</h2>
         {quote ? (
-          <div>
+          <div className="quote__music">
             <h4>{quote.quote}</h4>
             <h3>{quote.author}</h3>
           </div>
