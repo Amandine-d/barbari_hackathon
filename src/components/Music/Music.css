@@ -64,6 +64,9 @@
   color: hsl(205, 78%, 60%);
   }
 
+.h3__style {
+  margin-top: 20px;
+}
 
 .video__style {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
