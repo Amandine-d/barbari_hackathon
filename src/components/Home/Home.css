@@ -7,6 +7,7 @@
 .home {
   display: flex;
   flex-direction: column;
+  /* justify-content: flex-start; */
   align-items: center;
   text-align: center;
   background-image: url('/src/assets/galaxy.jpeg');
@@ -16,21 +17,25 @@
 }
 
 .title_home {
+  font-size: 2em;
   position: relative;
-  margin: 0;
+  text-shadow: 5px 5px 5px yellow;
 }
 
-.cercles {
+/* .cercles, .cercles_2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  justify-content: flex-start;
+} */
 
 .cercle {
-  margin: 45px 0px ;
-  width: 200px;
-  height: 200px;
+  display: flex;
+  /* justify-content: flex-start; */
+  margin: 65px 0px ;
+  width: 50vw;
+  height: 30vh;
   border-radius: 50%;
   box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
   background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
@@ -38,37 +43,43 @@
 
 .line_2 {
   height: 10px;
+  width: 70vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 55px 15px rgba(135, 49, 206, 0.8);
   background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
 }
 
 @media screen and (min-width: 1380px) {
   
   .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* position: static; */
     background-image: url('/src/assets/galaxy.jpeg');
     background-position: center;
-    height: 800px;
-    background-size: 1920px 800px;
+    height: 120vh;
+    background-size: 100% 100%;
+    z-index: 0;
   }
   
   .title_home {
     position: relative;
     margin: 0;
+    font-size: 4em;
   }
-  
-  .cercles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
   
   .cercle {
-    margin: 45px 0px ;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+    background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  }
+
+  .cercle2 {
+    margin-right: 250px;
+    margin: 100px 0px ;
     width: 250px;
     height: 250px;
     border-radius: 50%;

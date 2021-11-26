@@ -13,9 +13,13 @@
   height: 20vh;
   background-size: 150% 200%;
   background-repeat: no-repeat ;
-  box-shadow: 5px 5px 5px rgba(223, 166, 43, 0.8);
+  box-shadow: 5px 5px 5px rgba(135, 49, 206, 0.8);
   position: relative;
+  animation: move1 5s infinite;
+}
 
+@keyframes move1 {
+  50% {box-shadow: 0px 0px 0px  ;}
 }
 
 .logo {
@@ -44,15 +48,18 @@
   color: white;
   z-index: 1000;
   transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px yellow;
+
 }
 
 @media screen and (min-width: 1380px) {
 
   .container__navbar {
     height: 25vh;
-   background-size: 100% 200%;
-
+    background-size: 100% 200%;
     background-position: center;
+    box-shadow: 5px 5px 25px rgba(135, 49, 206, 0.8);
+
   }
   
   .logo {
@@ -69,10 +76,8 @@
     background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
 
-  .h1__header {
+  .h1_header {
     position: absolute;
-    margin-left: 580px;
-    margin-top: 80px;
     font-size: 80px;
     font-family: 'Megrim', cursive;
     color: white;
