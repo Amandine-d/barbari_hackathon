@@ -8,7 +8,7 @@ const BurgerMenu = () => {
     setOpen(!open);
   };
   return (
-    <div className={`${open ? "is-open" : ""}  `}>
+    <div className={`${open ? "is-open" : ""}  `} id="home">
       <div className="container-burger">
         <button type="button" onClick={handleClick} className="burger-menu">
           <span />

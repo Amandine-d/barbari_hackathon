@@ -2,16 +2,17 @@
 
 .nav {
   list-style: none;
-  padding: 15px 15px 0 15px;
+  padding: 15px 0 0 15px;
   display: flex;
   flex-flow: column;
   background-color: #2a2e33;
-  color: #e93e3a;
+  background: linear-gradient(180deg, #f19a34 0%, #9b3ae8 100%);
+  color: red;
   border: solid;
   border-radius: 15px;
   position: absolute;
   width: fit-content;
-  top: 45px;
+  top: 60px;
 }
 
 .nav li {
@@ -19,6 +20,8 @@
   color: white;
   text-align: justify;
   font-size: 1.2rem;
+  text-shadow: 5px 5px 5px yellow;
+  font-weight: bold;
   width: 100%;
   font-family: "Megrim", cursive;
   padding-right: 15px;
