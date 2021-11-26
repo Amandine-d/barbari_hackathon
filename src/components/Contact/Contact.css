@@ -51,9 +51,17 @@ textarea {
   box-shadow: 0 0.5em;
 }
 
-button:hover {
-  box-shadow: 0.1em 0.3em #210ef8;
+
+.click:hover {
+  box-shadow: 0.1em 0.3em #261711;
   transform: translateY(3px);
+}
+
+.click:active {
+  background-color: #90755d;
+  color: #261711;
+  box-shadow: 0 0.1em;
+  transform: translateY(7px);
 }
 
 form {
