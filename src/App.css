@@ -1,1 +1,18 @@
+.App {
+  background-image: url('/src/assets/galaxy.jpeg');
+    background-position: center;
+    background-size: 100% 100%;
+    bottom: 0px;
+}
 
+/* footer {
+  position: absolute; 
+  bottom: 0;
+  background-image: url('/src/assets/montagne.png');
+  text-align: center;
+  height: 20vh ;
+  background-size: 120% 100%;
+  color: white;
+  margin-top: 12vh;
+  filter: drop-shadow(15px -20px 15px #9B3AE8);
+} */
