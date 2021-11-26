@@ -14,11 +14,11 @@
 }
 
 .container__card {
-  border: 1px solid black;
+  border: 1px solid hsl(323,100%,50%);
   opacity: 0.8;
   font-size: 1.1rem;
-  box-shadow: 10px 5px 5px black;
-  padding: 10px;
+  box-shadow: 10px 5px 5px hsl(323,100%,50%);
+  padding: 1em;
   margin: 20px;
   border-radius: 10px;
   width: 100%;
@@ -69,11 +69,23 @@
   /* Music details */
 
 .h1__style__details {
+  margin-top: 10px;
   height: 3rem;
   padding: 10px;
-  text-decoration: underline overline hsl(0,100%,51%);;
+  text-decoration: underline overline hsl(323,100%,50%);
 }
 
+.h1__container__music {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-style: outset;
+  border-color: hsl(323,100%,50%);
+  font-family: 'Megrim', cursive;
+  color: white;
+  z-index: 1000;
+  /* transform: translate(-50%, -50%); */
+  text-shadow: 5px 5px 5px yellow;
+}
 .container__details {
   color: white;
   display: flex;
@@ -93,11 +105,12 @@
   margin: 20px;
   max-width: 80vw;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid hsl(323,100%,50%);
   opacity: 0.7;
   font-size: 1.1rem;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px hsl(323,100%,50%);
   height: auto;
+  border-radius: 15px;
 }
 
 .details__style__card {
