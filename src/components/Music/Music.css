@@ -6,11 +6,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('/src/assets/galaxy.jpeg');
+  /* background-image: url('/src/assets/galaxy.jpeg'); */
   background-position: center;
   height: auto;
-  background-size: 1080px 800px;
+  /* background-size: 1080px 800px; */
   margin-bottom: 30vh;
+  background-repeat: no-repeat;
 }
 
 .container__card {
@@ -92,10 +93,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('/src/assets/galaxy.jpeg');
+  /* background-image: url('/src/assets/galaxy.jpeg'); */
   background-position: center;
   height: auto;
-  background-size: 1080px 800px;
+  /* background-size: 1080px 800px; */
   }
 
 .music__details {

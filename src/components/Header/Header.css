@@ -49,8 +49,17 @@
   z-index: 1000;
   transform: translate(-50%, -50%);
   text-shadow: 5px 5px 5px yellow;
-
+  animation: defilement-rtl 6s linear;
 }
+
+@keyframes defilement-rtl { 
+  0% {
+    transform: translate3d(-200%,0,0);    
+  }
+  100% {
+    transform: translate3d(0%,0,0);  
+  }
+} 
 
 @media screen and (min-width: 1380px) {
 
