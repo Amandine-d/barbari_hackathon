@@ -32,7 +32,7 @@ function MusicDetails() {
           style.id == params.id ? (
             <div className="details__style__card">
               <h1 className="h1__style__details">{style.style}</h1>
-              <h3>{style.description}</h3>
+              <h3 className="h3__style">{style.description}</h3>
               <img src={style.image} alt={style.name} className="img__musicdetails" />
               <h2 className="name__artist">{style.artist}</h2>
             </div>
