@@ -4,16 +4,16 @@
   font-family: 'Megrim', sans-serif;
 }
 
-.home {
+/* .home {
   display: flex;
   flex-direction: column;
   text-align: center;
   background-image: url('/src/assets/galaxy.jpeg');
   background-position: center;
   /* background-size: 1080px 800px; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 
-}
+ */
 
 .title_home {
   font-size: 2em;
@@ -52,13 +52,14 @@
 
 @media screen and (min-width: 1380px) {
   
-  .home {
+  /* .home {
     background-image: url('/src/assets/galaxy.jpeg');
     background-position: center;
     height: 150vh;
     /* background-size: 100% 100%; */
-    z-index: 0;
-  }
+    /* z-index: 0; */
+   */
+  */
   
   .title_home {
     position: relative;
@@ -97,5 +98,5 @@
     height: 10px;
     background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
   }
-  
+
 }
