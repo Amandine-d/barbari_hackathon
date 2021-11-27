@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+.footer {
+    background-image: url('/src/assets/montagne.png');
+    text-align: center;
+    height: 40vh ;
+    background-size: 120% 100%;
+    color: white;
+    filter: drop-shadow(15px -20px 25px #9B3AE8);
+    bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.h3__footer {
+  font-size: 18px;
+  padding-top: 230px;
+  font-weight: bold;
+  font-family: 'Megrim', cursive;
+  text-shadow: 5px 5px 5px yellow;
+}
+
+  @media screen and (min-width: 1380px) {
+    .footer {
+      background-image: url('/src/assets/montagne.png');
+      text-align: center;
+      position: static;
+      height: 85vh;
+      background-size: 120% 100%;
+      color: white;
+      margin-top: 25vh;
+      box-sizing: content-box;
+      filter: drop-shadow(15px -20px 25px #9B3AE8);
+      animation: move1 1s infinite;
+     }
+
+     .h3__footer {
+       height: 8vh;
+      font-size: 50px;
+      padding-top: 550px;
+      font-weight: bold;
+      font-family: 'Megrim', cursive;
+    }
+
+   
+  }
+
+
+
+
+

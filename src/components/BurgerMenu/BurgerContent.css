@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap%27");
+
+.nav {
+  list-style: none;
+  padding: 15px 0 0 15px;
+  display: flex;
+  flex-flow: column;
+  background-color: #2a2e33;
+  background: linear-gradient(180deg, #f19a34 0%, #9b3ae8 100%);
+  color: rgb(236, 154, 132);
+  box-shadow: 0px 0px 5px 2px rgb(236, 154, 132);
+  /* border: solid; */
+  border-radius: 15px;
+  position: absolute;
+  width: fit-content;
+  top: 60px;
+}
+
+.nav li {
+  margin-bottom: 25px;
+  color: white;
+  text-align: justify;
+  font-size: 1.2rem;
+  text-shadow: 5px 5px 5px yellow;
+  font-weight: bold;
+  width: 100%;
+  font-family: "Megrim", cursive;
+  padding-right: 15px;
+}
+
+.navLink-burgerMenu {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: blue;
+}
+
+.navLink-burgerMenu:hover {
+  color: red;
+  transition: all 0.3s linear;
+}

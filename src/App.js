@@ -1,26 +1,28 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './Home/Home';
-import Products from './Products/Products';
-import Contact from './Contact/Contact';
-import Navbar from './Navbar/Navbar';
-import './App.css';
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import BurgerMenu from "./components/BurgerMenu/BurgerMenu";
+import Music from "./components/Music/Music";
+import Contact from "./components/Contact/Contact";
+import Header from "./components/Header/Header";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import MusicDetails from "./components/Music/MusicDetails";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <div>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/products' element={<Products />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        </div>
-
-      </header>
+      <Header />
+      <BurgerMenu />
+      <div className="container_page">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/music/:id" element={<MusicDetails />} />
+        </Routes>
+      </div>
+      <Footer />{" "}
     </div>
   );
 }

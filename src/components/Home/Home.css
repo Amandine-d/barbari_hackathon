@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+
+* {
+  font-family: 'Megrim', sans-serif;
+  color: white;
+}
+
+.home_text {
+  font-size: 0.6em;
+}
+
+p {
+  font-size: 0.5em;
+  padding-top: 8px;
+}
+
+.list_music {
+  font-size: 0.5em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.oui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  }
+
+  .oui_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+/* .home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('/src/assets/galaxy.jpeg');
+  background-position: center;
+  background-size: 1080px 800px;
+  background-repeat: no-repeat;
+} */
+
+.title_home {
+  font-size: 2em;
+  position: relative;
+  text-shadow: 5px 5px 5px yellow;
+  animation: defilement-rtl5 3s linear;
+
+}
+
+.cercle {
+  margin: 50px 0px ;
+  margin-left: 100px;
+  width: 50vw;
+  height: 30vh;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+  background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  animation: defilement-rtl3 3s linear;
+}
+
+@keyframes defilement-rtl3 { 
+  0% {
+    transform: translateX(-3550px);    
+  }
+  100% {
+    transform: translateX(0px);  
+  }
+} 
+
+.cercle_2 {
+  margin: 65px 0px ;
+  margin-right: 80px;
+  width: 50vw;
+  height: 30vh;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(135, 49, 206, 0.8);
+  background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  animation: defilement-rtl4 3.5s linear;
+}
+
+
+@keyframes defilement-rtl4 { 
+  0% {
+    transform: translateX(3550px);    
+  }
+  100% {
+    transform: translateX(0px);  
+  }
+} 
+
+.cercle:hover {
+  transform: scale(1.2); 
+}
+
+.cercle_2:hover {
+  transform: scale(1.2); 
+}
+
+.line_2 {
+  height: 10px;
+  width: 70vw;
+  margin-left: 55px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 55px 15px rgba(135, 49, 206, 0.8);
+  background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+  animation: defilement-rtl5 3.5s linear;
+
+}
+
+@keyframes defilement-rtl5 { 
+  0% {
+    transform: translateX(-3550px);    
+  }
+  100% {
+    transform: translateX(0px);  
+  }
+} 
+
+@media screen and (min-width: 1380px) {
+
+  .home_text {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1.2em;
+    padding-top: 10px;
+  }
+
+  .list_music {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  
+  /* .home {
+    background-image: url('/src/assets/galaxy.jpeg');
+    background-position: center;
+    height: 150vh;
+    background-size: 100% 100%;
+    z-index: 0;
+  } */
+
+  .oui {
+    flex-wrap: wrap;
+    padding: 80px;
+    }
+
+    .oui_2 {
+      flex-wrap: wrap;
+      padding: 110px;
+      }
+  
+  .title_home {
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+  }
+
+  .cercles {
+    display: flex;
+ }
+
+  .container_cercle {
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: row-reverse;
+  }
+
+  .cercle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 45px rgba(135, 49, 206, 0.8);
+    background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  }
+
+  .cercle_2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 45px rgba(135, 49, 206, 0.8);
+    background: linear-gradient(180deg, #F19A34 0%, #9B3AE8 100%);
+  }
+
+  .line_2 {
+    margin-left: 250px;
+    height: 10px;
+    background: linear-gradient(269.99deg, #7F26D3 0%, #3257DC 100%, #2448CB 100%), #151B31;
+  }
+  
+}
